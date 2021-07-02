@@ -1,29 +1,4 @@
-*   Git加速插件：[[https://chrome.google.com/webstore/detail/github%E5%8A%A0%E9%80%9F/mfnkflidjnladnkldfonnaicljppahpg][GitHub加速😊]]
-* 🔧Emacs工具篇
-本项目开发及维护以Emacs为主!
-** 常用快捷键(ctrl-c; alt-m)
-   | 功能                      | 快捷键                               |
-   | 新建文件or打开文件        | c-x c-f                              |
-   | eshell：emacs端命令行窗口 | m-x eshell                           |
-   | 添加有名称的超链接        | [[url] [name]]                       |
-   | 添加github文件超链接      | [[file: ./ 文件夹 /文件] [描述字段]] |
-   | c-g                       | 取消一切指令                         |
-   | c-s                       | buffer内部全局搜索                   |
-   | 上下分屏                  | c-x 2                                |
-   | 左右分屏                  | c-x 3                                |
-   | 关闭当前分屏              | c-x 0                                |
-   | 只保留当前分屏            | c-x 1                                |
-   | 打开最近使用的文件buffer  | c-x c-r                              |
-   | 删除buffer                | c-x k                                |
-   | 切换到其他buffer          | c-x b                                |
-   | 有道词典查单词            | 选中单词后，c-c o                    |
-   | EMACS快捷键教程           | [[file:./utils/EMACS_TUTORIAL_MAC.pdf][EMACS_tutorial_for_mac]]               |
-** 🐓日程提醒功能
-   1. 删除 ~/.emacs.d/gtd.org
-   2. c-c r打开添加事项buffer, 选择t(to do)，添加事项
-   3. shift + 上下按键调节任务优先级
-   4. c-c c-c保存，c-c c-k退出不保存
-   5. c-c a进入agenda buffer,选择a查看当前用户日程
+
 * ⛽️LeetCode刷题篇
 #+DOWNLOADED: file:/var/folders/73/53s3wczx1l32608prn_fdgrm0000gn/T/TemporaryItems/（screencaptureui正在存储文稿，已完成6）/截屏2020-05-14 下午8.50.18.png @ 2020-05-14 20:50:24
 [[file:Screen-Pictures/LeetCode%E5%88%B7%E9%A2%98%E7%AF%87/2020-05-14_20-50-24_%E6%88%AA%E5%B1%8F2020-05-14%20%E4%B8%8B%E5%8D%888.50.18.png]]
@@ -37,7 +12,7 @@
 ** 🐈每日题目分配
    | Date               | Topic    | [[https://github.com/AI-confused][Black_tear]]                                                  | [[https://github.com/yechens/][Giant]]                                               | [[https://github.com/weizaiff][Van]]                                                        | Check |
    |--------------------+----------+-------------------------------------------------------------+-----------------------------------------------------+------------------------------------------------------------+-------|
-   | 05/14              | DP       | [[https://leetcode-cn.com/problems/house-robber/][198.打家劫舍]]                                                | [[https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/][121.买卖股票的最佳时机]]                              | [[https://leetcode-cn.com/problems/maximum-subarray/][53.最大子序和]]                                              | [ ]     |
+   | 05/14              | DP       | [[https://leetcode-cn.com/problems/house-robber/][198.打家劫舍]]                                                | [[https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/][121.买卖股票的最佳时机]]                              | [[https://leetcode-cn.com/problems/maximum-subarray/][53.最大子序和]]                                              | --[ ]     |
    | 05/15              | DP       | [[https://leetcode-cn.com/problems/house-robber-iii/][237.打家劫舍 III]]                                            | [[https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/][309.最佳买卖股票时机含冷冻期]]                        | [[https://leetcode-cn.com/problems/longest-increasing-subsequence/][300.最长上升子序列]]                                         | ☑️     |
    | 05/16              | DP       | [[https://leetcode-cn.com/problems/minimum-path-sum/][64.最小路径和]]                                               | [[https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/][123.买卖股票的最佳时机 III]]                          | [[https://leetcode-cn.com/problems/longest-palindromic-substring/][5.最长回文子串]]                                             | ☑️     |
    | 05/17              | DP       | [[https://leetcode-cn.com/problems/coin-change/][322.零钱兑换]]                                                | [[https://leetcode-cn.com/problems/word-break/][139.单词拆分]]                                        | [[https://leetcode-cn.com/problems/partition-equal-subset-sum/][416.分割等和子集]]                                           | ☑️     |
